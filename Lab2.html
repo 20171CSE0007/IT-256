@@ -2,7 +2,15 @@
 	<head>
 		<title>Lab2</title>
 	</head>
-	<body>
+	<body style="background-color:powderblue;">
+		<h1 style="color:blue;">This is a heading</h1>
+		<p style="color:red;">This is a paragraph.</p>
+		<h1 style="font-family:verdana; background-color:DodgerBlue;">This is a heading</h1>
+		<p style="font-family:courier;">This is a paragraph.</p>
+		<h1 style="font-size:300%; background-color:#ff6347;">This is a heading</h1>
+		<p style="font-size:160%;">This is a paragraph.</p>
+		<h1 style="text-align:center; background-color:hsla(9, 100%, 64%, 0.5);">Centered heading</h1>
+		<p style="text-align:center;">Centered paragraph.</p>
 		<ol type="i">
 		<li>Apple</li>
 		<li>Orange</li>
@@ -44,25 +52,38 @@
 		<th>Column 1 header</th>
 		<th>Column 2 header</th>
 		<th>Column 3 header</th>
+		<th>Column 4 header</th>
 		</tr>
 		<tr>
-		<td>Row 1, Col 1</td>
+		<td rowspan="2">Row 1, Col 1</td>
 		<td>Row 1, Col 2</td>
 		<td>Row 1, Col 3</td>
+		<td rowspan="3">Row 1, Col 4</td>		
 		</tr>
 		<tr>
-		<td>Row 2, Col 1</td>
 		<td>Row 2, Col 2</td>
 		<td>Row 2, Col 3</td>
 		</tr>
 		<tr>
-		<td>Row 3, Col 1</td>
-		<td>Row 3, Col 2</td>
-		<td>Row 3, Col 3</td>
+		<td colspan="3">Row 3, Col 1</td>
 		</tr>
 		</table>
-		Click <a href="http://www.google.com">here</a>
-		<img src="/home/6CSE1/Downloads/images.jpeg" width="10%" border="3" align="right">
+		<font size="1">Font size = "1"</font><br />
+		<font size="2">Font size = "2"</font><br />
+		<font size="3">Font size = "3"</font><br />
+		<font size="4">Font size = "4"</font><br />
+		<font size="5">Font size = "5"</font><br />
+		<font size="6">Font size = "6"</font><br />
+		<font size="7">Font size = "7"</font>
+		<marquee>This is basic example of marquee</marquee>
+		<marquee direction="right">This text will scroll from bottom to up</marquee>
+		<marquee direction="up">This text will scroll from left to right</marquee>
+		<!--<p><a href="/home/6CSE1/basic.html">-->
+			<img src="/home/6CSE1/Downloads/images.jpeg" alt="Image as link" style="height:84px; width:84px; border:3; float:left;" uswmap="#workmap">
+				<map name="woekmap">
+					<area shape="rect" coords="34,44,270,350" href="/home/6CSE1/basic.html">
+				</map>
+		<!--</a>The image will float to the left of the text.</p>-->
 	</body>
 </html>
 			
